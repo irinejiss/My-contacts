@@ -24,6 +24,10 @@ import UIKit
 
 extension SecondViewController: UITableViewDelegate{
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 130
+    }
+    
 }
 extension SecondViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

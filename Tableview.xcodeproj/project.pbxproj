@@ -18,6 +18,7 @@
 		3127906626AE9BE200521640 /* TableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127906526AE9BE200521640 /* TableviewTests.swift */; };
 		3127907126AE9BE200521640 /* TableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127907026AE9BE200521640 /* TableviewUITests.swift */; };
 		319181F026B00712003F5118 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319181EF26B00712003F5118 /* SecondViewController.swift */; };
+		31D9677E26B9238D0022E3B6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D9677D26B9238D0022E3B6 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3127907026AE9BE200521640 /* TableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewUITests.swift; sourceTree = "<group>"; };
 		3127907226AE9BE200521640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319181EF26B00712003F5118 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		31D9677D26B9238D0022E3B6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3127904D26AE9BDC00521640 /* SceneDelegate.swift */,
 				3127904F26AE9BDC00521640 /* ViewController.swift */,
 				319181EF26B00712003F5118 /* SecondViewController.swift */,
+				31D9677D26B9238D0022E3B6 /* ThirdViewController.swift */,
 				31191D9826B15C0E006AA449 /* customCell.swift */,
 				3127905126AE9BDC00521640 /* Main.storyboard */,
 				3127905726AE9BE000521640 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				3127905026AE9BDC00521640 /* ViewController.swift in Sources */,
 				3127905626AE9BDC00521640 /* Tableview.xcdatamodeld in Sources */,
 				31191D9926B15C0E006AA449 /* customCell.swift in Sources */,
+				31D9677E26B9238D0022E3B6 /* ThirdViewController.swift in Sources */,
 				3127904C26AE9BDC00521640 /* AppDelegate.swift in Sources */,
 				319181F026B00712003F5118 /* SecondViewController.swift in Sources */,
 				3127904E26AE9BDC00521640 /* SceneDelegate.swift in Sources */,

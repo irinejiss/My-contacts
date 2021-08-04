@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1za-y9-ltT">
-                                <rect key="frame" x="117" y="420" width="215" height="53"/>
+                                <rect key="frame" x="112.5" y="427.5" width="189" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Show Contact List">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -30,10 +30,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.32637935398151735" green="0.844307494650678" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1za-y9-ltT" secondAttribute="bottom" constant="389" id="6cR-8D-E4W"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1za-y9-ltT" secondAttribute="trailing" constant="82" id="7oO-nN-2sa"/>
-                            <constraint firstItem="1za-y9-ltT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="332" id="MrC-UE-dE2"/>
-                            <constraint firstItem="1za-y9-ltT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="XRk-oF-X9A"/>
+                            <constraint firstItem="1za-y9-ltT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="M6j-HW-65R"/>
+                            <constraint firstItem="1za-y9-ltT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sEi-YA-Rqj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FhA-aX-Dao"/>
@@ -106,8 +104,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="name" destination="FGU-yJ-5JB" id="EGm-8l-QyX"/>
-                                            <outlet property="no" destination="Xrf-Cc-VgO" id="LVk-60-xBz"/>
+                                            <outlet property="nameLabel" destination="FGU-yJ-5JB" id="8HU-Bt-iQV"/>
+                                            <outlet property="numberLabel" destination="Xrf-Cc-VgO" id="Bjs-0w-XUw"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -129,7 +127,7 @@
                     <navigationItem key="navigationItem" id="UxK-GH-lbW"/>
                     <connections>
                         <outlet property="contactList" destination="rsF-Om-LjG" id="Ojy-rO-g4J"/>
-                        <segue destination="Mml-Ti-XhV" kind="show" identifier="segue" id="m8E-X8-Tec"/>
+                        <segue destination="Mml-Ti-XhV" kind="show" identifier="contactDetailSegue" id="m8E-X8-Tec"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kgq-ka-LFN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -146,7 +144,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq2-WY-LCT">
                                 <rect key="frame" x="168" y="428.5" width="78" height="39.5"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

@@ -18,11 +18,11 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mainTitle?.text = userName
-
+        setName()
     }
-    override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-
+    
+    func setName() {
+        guard let name = userName else { return }
+        mainTitle.text = name
     }
 }

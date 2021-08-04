@@ -28,6 +28,7 @@ extension SecondViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 130
     }
+<<<<<<< HEAD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let thirdVc = ThirdViewController()
@@ -38,6 +39,10 @@ extension SecondViewController: UITableViewDelegate{
     }
     
 
+=======
+    
+}
+>>>>>>> 88476c75f83ee308c5da6897dd8c0649a19e723d
 extension SecondViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count

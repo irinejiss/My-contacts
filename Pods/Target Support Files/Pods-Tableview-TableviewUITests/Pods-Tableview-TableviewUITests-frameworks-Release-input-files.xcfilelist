@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Tableview-TableviewUITests/Pods-Tableview-TableviewUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
+${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework

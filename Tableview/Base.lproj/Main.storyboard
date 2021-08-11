@@ -17,7 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1za-y9-ltT">
-                                <rect key="frame" x="112.5" y="427.5" width="189" height="41"/>
+                                <rect key="frame" x="93" y="395" width="228" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="OnG-xf-VAb"/>
+                                    <constraint firstAttribute="width" constant="228" id="a7x-QO-6aV"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Show Contact List">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -223,10 +227,10 @@
     </scenes>
     <designables>
         <designable name="1jF-vN-11J">
-            <size key="intrinsicContentSize" width="76.5" height="25.5"/>
+            <size key="intrinsicContentSize" width="80.5" height="29"/>
         </designable>
         <designable name="jgz-XT-wIP">
-            <size key="intrinsicContentSize" width="368" height="41.607421875"/>
+            <size key="intrinsicContentSize" width="67" height="34"/>
         </designable>
     </designables>
     <resources>

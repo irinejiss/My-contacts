@@ -142,23 +142,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq2-WY-LCT">
-                                <rect key="frame" x="130" y="413" width="130" height="71"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq2-WY-LCT">
+                                <rect key="frame" x="59.5" y="255.5" width="297" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgz-XT-wIP" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="24" y="421.5" width="368" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="368" id="7Si-tF-hy1"/>
+                                    <constraint firstAttribute="height" constant="56" id="RFh-AU-sda"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1jF-vN-11J" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="23" y="325.5" width="370" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="dWv-4j-R9b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="omO-RV-wxC">
+                                <rect key="frame" x="24" y="517.5" width="368" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="368" id="JeQ-f7-cyq"/>
+                                    <constraint firstAttribute="height" constant="56" id="Qvf-0J-U9l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lbm-g2-Kpg"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="Aq2-WY-LCT" firstAttribute="centerX" secondItem="5Og-66-qa0" secondAttribute="centerX" constant="-12" id="0E0-l8-z8Z"/>
-                            <constraint firstItem="Aq2-WY-LCT" firstAttribute="centerY" secondItem="5Og-66-qa0" secondAttribute="centerY" id="JUq-We-iVw"/>
+                            <constraint firstItem="jgz-XT-wIP" firstAttribute="leading" secondItem="Lbm-g2-Kpg" secondAttribute="leading" constant="24" id="BUW-8f-BrG"/>
+                            <constraint firstItem="Aq2-WY-LCT" firstAttribute="top" secondItem="Lbm-g2-Kpg" secondAttribute="top" constant="167.52000000000001" id="Cqp-yS-e3b"/>
+                            <constraint firstItem="Lbm-g2-Kpg" firstAttribute="trailing" secondItem="jgz-XT-wIP" secondAttribute="trailing" constant="24" id="DBC-hv-8fP"/>
+                            <constraint firstItem="jgz-XT-wIP" firstAttribute="top" secondItem="1jF-vN-11J" secondAttribute="bottom" constant="40" id="DVJ-NQ-ld1"/>
+                            <constraint firstItem="Lbm-g2-Kpg" firstAttribute="trailing" secondItem="1jF-vN-11J" secondAttribute="trailing" constant="23" id="IVd-Rv-Ndj"/>
+                            <constraint firstItem="Lbm-g2-Kpg" firstAttribute="trailing" secondItem="Aq2-WY-LCT" secondAttribute="trailing" constant="59.5" id="Pdl-xA-kZa"/>
+                            <constraint firstItem="omO-RV-wxC" firstAttribute="top" secondItem="jgz-XT-wIP" secondAttribute="bottom" constant="40" id="aEm-c7-MPF"/>
+                            <constraint firstItem="Lbm-g2-Kpg" firstAttribute="trailing" secondItem="omO-RV-wxC" secondAttribute="trailing" constant="24" id="iHf-cp-DPx"/>
+                            <constraint firstItem="1jF-vN-11J" firstAttribute="leading" secondItem="Lbm-g2-Kpg" secondAttribute="leading" constant="23" id="qIf-iF-wIi"/>
+                            <constraint firstItem="1jF-vN-11J" firstAttribute="top" secondItem="Aq2-WY-LCT" secondAttribute="bottom" constant="40" id="qrm-L1-k7Z"/>
+                            <constraint firstItem="omO-RV-wxC" firstAttribute="leading" secondItem="Lbm-g2-Kpg" secondAttribute="leading" constant="24" id="xMa-1P-rji"/>
+                            <constraint firstItem="Aq2-WY-LCT" firstAttribute="leading" secondItem="Lbm-g2-Kpg" secondAttribute="leading" constant="59.5" id="xst-B3-vCe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="89S-uK-UpE"/>
                     <connections>
                         <outlet property="mainTitle" destination="Aq2-WY-LCT" id="gc9-Tw-hjd"/>
+                        <outlet property="setAddress" destination="omO-RV-wxC" id="Dv8-VA-hRR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9H-Uw-3AN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -184,6 +221,14 @@
             <point key="canvasLocation" x="-514.49275362318849" y="-48.214285714285715"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="1jF-vN-11J">
+            <size key="intrinsicContentSize" width="76.5" height="25.5"/>
+        </designable>
+        <designable name="jgz-XT-wIP">
+            <size key="intrinsicContentSize" width="368" height="41.607421875"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
